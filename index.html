@@ -3,17 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/partials/page-landing.css">
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
     <title>Proffys</title>
 </head>
-<body class="page-landing">
+<body id="page-landing">
     <div id="container">
-        <h1>Proffy</h1>
-        <p>Sua plataforma de estudos online</p>
-        <!-- <img src="./img/logo.svg" alt="Logo da proffys"> -->
-        <button>Estudar</button>
-        <button>Dar aulas</button>
-    </div id="container">
+        <div class="logo-container">
+            <img src="./img/logo.svg" alt="Logo da proffys">
+            <h2>Sua plataforma de estudos online</h2>
+        </div>
+        <img class="hero-image" src="/img/landing.svg" alt="Plataforma de estudos">
+
+        <div class="buttons-container">
+            <a href="/study.html" class="study">
+                <img src="/img/icons/study.svg" alt="Estudar">
+                Estudar
+            </a>
+            <a class="give-classes" href="/give-classes.html">
+                <img src="/img/icons/give-classes.svg" alt="Dar aulas">
+                Dar aula
+            </a>
+        </div>
+    </div>
 </body>
 </html>
